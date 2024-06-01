@@ -1,0 +1,105 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+  background-color: #000000;
+}
+
+/* Other CSS styles remain unchanged */
+
+.location {
+  display: flex;
+  align-items: center; /* Align items horizontally */
+}
+
+.location p {
+  margin: 0; /* Remove default margin */
+}
+
+* {
+  color: beige;
+}
+.compass,
+.location,
+.flight-info {
+  margin-right: 20px;
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+}
+
+.dashboard-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #000000;
+}
+
+.weather,
+.health-check {
+  margin-right: 20px;
+}
+
+.weather {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  align-items: center;
+  background-color: #251111;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.health-check {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.parameter {
+  display: flex;
+  gap: 4rem;
+}
+.weatheritem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-info {
+  gap: 1rem;
+  display: flex;
+}
+.flight-info > div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(37, 17, 17);
+  border-radius: 20px;
+}
+.flight-info-heading {
+  font-size: 1.4rem;
+}
+.leaflet-routing-container {
+  display: none;
+}
+.flightinfovalue {
+  font-size: 1.4rem;
+  margin: -5px;
+}
+.path-container > input {
+  color: #000000;
+}
